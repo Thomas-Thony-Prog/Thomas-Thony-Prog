@@ -1,4 +1,4 @@
-- 👋 Hi, I’m @Thomas-Thony-Prog
+- 👋 Hi, I’m @Thomas-Thony, a french student in IT looking for an apprenticeship in Web developpement.
 - 👀 I’m interested in Front-End dev, Web dev.
 - 🌱 I’m currently learning React.js, Angular, Javascript.
 - 💞️ I’m looking to collaborate on Web projetcs.
