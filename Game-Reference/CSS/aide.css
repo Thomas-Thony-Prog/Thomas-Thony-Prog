@@ -1,0 +1,100 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Poppins:wght@300;400;500;600;700&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+    box-sizing: border-box;
+}
+
+body{
+    min-height: 10vh;
+    display: grid;
+}
+
+/*Partie menu du haut (top footer)*/
+.image_logo{
+    border: none;
+    vertical-align: middle;
+}
+ul li .Titre{
+    font-size: 60px;
+}
+
+ul{
+    list-style: none;
+    background: #2b00eb;
+}
+ul li {
+    display: inline-block;
+    position: relative;
+    align-items: center;
+}
+
+ul li a{
+    display: block;
+    padding:  20px 25px;
+    color: #fff;
+    text-decoration: none;
+    text-align: center;
+    font-size: 20px;
+}
+
+ul li ul.dropdown li{
+    display: block;
+}
+
+ul li ul.dropdown{
+    background: #2b00eb;
+    position: absolute;
+    opacity: 0;
+    z-index: 999;
+}
+
+ul li a:hover{
+    background: #2a078b;
+}
+
+ul li:hover ul.dropdown{
+    display: block;
+    opacity: 1;
+    transform:translateY(0);
+    
+}
+
+#searchbar{
+    border-radius: 12px;
+    border-color: #2b00eb;
+    width: 200px;
+    height: 30px;
+}
+
+.search-bar-button .bx-search{
+    padding: 0;
+    margin: 0;
+    font-size: 35px; 
+}
+
+.search-bar-button{
+    border: #000000;
+    border-radius: 10px;
+    height: 32.5px;
+    cursor: pointer;
+    display: inline-block;
+}
+
+h2{
+    background-color: #fff;
+    text-align: center;
+    font-size: 40px;
+    font-weight: 800;
+}
+
+h3.titre{
+    font-size: 20px;
+    font-weight: 800;
+}
+
+h3.description{
+    font-size: 15px;
+    font-weight: 400;
+}
